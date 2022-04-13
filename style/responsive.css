@@ -1,0 +1,27 @@
+@media screen and (max-width: 700px){
+    header .container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .jogo-principal button{
+        margin-top: 5px;
+        height: 70px;
+    }
+
+    .jogo-principal h3{
+        width: 80%;
+    }
+
+    .jogo-principal p{
+        width: 90%;
+    }
+
+}
+
+@media screen and (min-width: 1000px){
+    .jogo-principal p{
+        width: 50%;
+    }
+
+}
