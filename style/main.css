@@ -1,0 +1,95 @@
+:root {
+    --vermelho: #E50914;
+    --preto: #141414;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: var(--preto);
+    font-family: 'Times New Roman', Times, serif;
+    color: #fff;
+}
+
+header .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo {
+    color: var(--vermelho);
+    font-family: 'Arial Black', Times;
+    font-size: 40px;
+    margin-left: 0.5rem;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #aaa;
+    margin-right: 0.7rem;
+}
+
+header nav a:hover {
+    color: #e2e2e2;
+}
+
+.jogo-principal {
+    font-size: 1rem;
+    background: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .50)100%), url('/img/bgmain.png');
+    height: 600px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+
+.jogo-principal p{
+    margin-bottom: 2.8rem;
+    margin-top: 0.8rem;
+}
+
+.jogo-principal h3{
+    font-size: 3rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', Arial, sans-serif;
+    margin-top: 10%;
+}
+
+.jogo-principal button{
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    border-radius: 3px;
+    color: #e2e2e2;
+    padding: 1rem 2rem;
+    margin-right: 1rem;
+    font-size: 0.8rem;
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.jogo-principal button:hover{
+    background-color: #e2e2e2;
+    color: black;
+    /* transition: .3s ease all; */
+}
+
+.jogo-principal i{
+    margin-right: 0.5rem;
+}
+
+.box-jogo{
+    height: 12rem;
+    width: 6rem;
+    display: block;
+}
+
+.carousel-jogos{
+    margin-top: 5px;
+}
